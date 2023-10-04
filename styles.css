@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+#durbean-logo {
+  width: 14.337rem;
+  height: 4.272rem;
+  margin-top: 0.625rem;
+  margin-left: 15.625rem;
+  margin-right: 15.625rem;
+}
+/*Text design*/
+h5{
+  margin-top: 10px;
+}
+h3 > span{
+  color: red;
+}
+
+/* Style for the countdown timer */
+#timer {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.time-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  color: black;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  
+}
+
+.time-value {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.time-label {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+h3 {
+  color: #131515;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+h4 {
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+h5 {
+  color: #131515;
+  font-family: Noto Sans;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.875rem;
+}
+
+.socials > #facebook > img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.3125rem;
+  margin-right: 0.3125rem;
+}
+
+.socials > #instagram > img {
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border-radius: 2.1875rem;
+  margin-right: 0.3125rem;
+}
+
+.socials > #linkedin > img {
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border-radius: 0.3125rem;
+}
+ 
